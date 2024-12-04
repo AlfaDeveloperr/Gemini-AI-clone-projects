@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Scrollbar'ın tamamı */
+::-webkit-scrollbar {
+  width: 7.5px;
+  /* Dikey scrollbar genişliği */
+  height: auto;
+  /* Yatay scrollbar yüksekliği */
+}
+
+/* Scrollbar'ın arka plan rengi */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Arka plan rengi */
+}
+
+/* Scrollbar'ın kaydırıcı kısmı */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Kaydırıcı rengi */
+  border-radius: 10px;
+  /* Kenar yuvarlama */
+}
+
+/* Kaydırıcının üzerine gelindiğinde rengi değişir */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Hover rengi */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+}
